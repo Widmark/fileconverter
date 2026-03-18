@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAXML till Hogia Lön Konverterare</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="container" id="main-container">
+        <h1>PAXML till Hogia Lön (.wli)</h1>
+        <p class="subtitle">Konvertera lönefiler från Tidio till Hogia Lön format 214031</p>
+
+        <div id="upload-view">
+            <div id="drop-zone" class="drop-zone">
+                <input type="file" id="file-input" accept=".xml,.XML,.paxml,application/xml,text/xml" hidden>
+                <p class="drop-text">Dra och släpp din XML- eller PAXML-fil här, eller</p>
+                <button type="button" id="choose-file-btn" class="btn btn-secondary">Välj fil</button>
+            </div>
+
+            <div id="file-info" class="file-info" hidden>
+                <span id="file-name"></span>
+                <button type="button" id="clear-file-btn" class="btn-clear" aria-label="Ta bort fil">×</button>
+            </div>
+
+            <div id="error-message" class="error-message" hidden role="alert"></div>
+
+            <button type="button" id="review-btn" class="btn btn-primary" disabled>
+                Fortsätt till granskning
+            </button>
+        </div>
+
+        <div id="review-view" hidden>
+            <div id="review-container"></div>
+        </div>
+    </main>
+
+    <script src="js/xml-parser.js"></script>
+    <script src="js/transformer.js"></script>
+    <script src="js/pay-type-names.js"></script>
+    <script src="js/wli-builder.js"></script>
+    <script src="js/paxml-builder.js"></script>
+    <script src="js/state.js"></script>
+    <script src="js/review-view.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

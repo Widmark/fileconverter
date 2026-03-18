@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.paxml.se/2.3/paxml.xsd">
+  <header>
+    <version>2.3</version>
+    <datum>2026-03-18T00:00:00</datum>
+    <foretagnamn>Testföretag AB</foretagnamn>
+    <programnamn>Tidio</programnamn>
+  </header>
+  <personal>
+    <person anstid="101">
+      <fornamn>Anna</fornamn>
+      <efternamn>Andersson</efternamn>
+    </person>
+    <person anstid="102">
+      <fornamn>Erik</fornamn>
+      <efternamn>Eriksson</efternamn>
+    </person>
+  </personal>
+  <lonetransaktioner>
+    <lonetrans anstid="101">
+      <lonart>710</lonart>
+      <datumfrom>2026-01-15</datumfrom>
+      <datumtom>2026-01-15</datumtom>
+      <antal>8</antal>
+      <apris>250</apris>
+      <belopp>2000</belopp>
+      <info>Arbetstid</info>
+    </lonetrans>
+    <lonetrans anstid="101">
+      <lonart>217</lonart>
+      <datumfrom>2026-01-20</datumfrom>
+      <datumtom>2026-01-20</datumtom>
+      <antal>2.5</antal>
+      <info>Mertid</info>
+    </lonetrans>
+    <lonetrans anstid="102">
+      <lonart>SJK</lonart>
+      <datumfrom>2026-02-01</datumfrom>
+      <datumtom>2026-02-03</datumtom>
+      <antal>24</antal>
+      <info>Sjukdom</info>
+    </lonetrans>
+  </lonetransaktioner>
+  <tidtransaktioner>
+    <tidtrans anstid="102">
+      <tidkod>VAB</tidkod>
+      <datumfrom>2026-02-10</datumfrom>
+      <datumtom>2026-02-10</datumtom>
+      <timmar>8</timmar>
+      <info>Vård av barn</info>
+    </tidtrans>
+  </tidtransaktioner>
+</paxml>

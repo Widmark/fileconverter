@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pa xmlns="http://www.hogia.se/XMLSchemas/pa">
+    <Employee>
+        <employmentId>224</employmentId>
+        <name>Anna Andersson</name>
+    </Employee>
+    <Employee>
+        <employmentId>91</employmentId>
+        <name>Erik Eriksson</name>
+    </Employee>
+    <Employee>
+        <employmentId>100</employmentId>
+        <name>Maria Karlsson</name>
+    </Employee>
+    <FileInfo>
+        <companyName>Testföretag AB</companyName>
+        <softwareProduct>Tidio</softwareProduct>
+        <createdDate>2026-03-18</createdDate>
+    </FileInfo>
+    <PayTypeInstruction>
+        <employmentId>224</employmentId>
+        <payTypeId>710</payTypeId>
+        <quantity>14.0</quantity>
+        <price>25.0</price>
+        <amount>350.0</amount>
+        <periodStartDate>2026-01-26</periodStartDate>
+        <periodEndDate>2026-01-26</periodEndDate>
+        <note>Egen bil</note>
+    </PayTypeInstruction>
+    <PayTypeInstruction>
+        <employmentId>91</employmentId>
+        <payTypeId>218</payTypeId>
+        <extent>8.25</extent>
+        <price>0</price>
+        <amount>0</amount>
+        <periodStartDate>2026-02-14</periodStartDate>
+        <periodEndDate>2026-02-14</periodEndDate>
+        <note>Mertid</note>
+    </PayTypeInstruction>
+    <PayTypeInstruction>
+        <employmentId>100</employmentId>
+        <payTypeId>100</payTypeId>
+        <quantity>40</quantity>
+        <periodStartDate>2026-03-01</periodStartDate>
+        <periodEndDate>2026-03-31</periodEndDate>
+    </PayTypeInstruction>
+</pa>
